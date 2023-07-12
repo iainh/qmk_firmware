@@ -38,9 +38,9 @@ enum my_tds {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_COLEMAK] = LAYOUT(
          KC_Q,         KC_W,    KC_F,    KC_P,   KC_B,                     KC_J,  KC_L,    KC_U,    KC_Y, KC_SCLN,
-         KC_A, KC_R,    KC_S, LSFT_T(KC_T),   KC_G,                     KC_M,  RSFT_T(KC_N),    KC_E,    KC_I,   KC_O,
+         KC_A, KC_R,    KC_S, LSFT_T(KC_T),   LALT_T(KC_G),                     RALT_T(KC_M),  RSFT_T(KC_N),    KC_E,    KC_I,   KC_O,
          LCTL_T(KC_Z), KC_X,   KC_C,    KC_D,   KC_V,  KC_LSFT, KC_ESC,  KC_K,  KC_H, KC_COMM,  KC_DOT, RCTL_T(KC_SLSH),
-    MO(_SYMB), LALT_T(KC_LSFT), KC_LEFT, KC_RGHT, KC_SPC, KC_BSPC, KC_TAB, KC_ENT,  KC_UP, KC_DOWN, RALT_T(KC_QUOT), MO(_SYMB)
+    MO(_SYMB), KC_SCLN, KC_LEFT, KC_RGHT, KC_SPC, KC_BSPC, KC_TAB, KC_ENT,  KC_UP, KC_DOWN, KC_QUOT, MO(_SYMB)
   ),
 
   [_SYMB] = LAYOUT(
