@@ -74,10 +74,10 @@ enum sol_keycodes {
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 [_COLEMAK] = LAYOUT(
-    KC_EQUAL,       KC_1,           KC_2,           KC_3,           KC_4,           KC_5,           KC_MAC_COPY,                                    KC_MAC_PASTE,   KC_6,           KC_7,           KC_8,           KC_9,           KC_0,             KC_MINUS,
-    KC_DELETE,      KC_Q,           KC_W,           KC_F,           KC_P,           KC_B,           TG(1),                                          TG(1),          KC_J,           KC_L,           KC_U,           KC_Y,           KC_SCOLON,        KC_BSLASH,
-    KC_BSPACE,      KC_A,           KC_R,           KC_S,           KC_T,           KC_G,           _______,                                        _______,        KC_M,           KC_N,           KC_E,           KC_I,           KC_O,             LGUI_T(KC_QUOTE),
-    KC_LSHIFT,      LCTL_T(KC_Z),   LALT_T(KC_X),   KC_C,           KC_D,           KC_V,           KC_HYPR,                                        KC_MEH,         KC_K,           KC_H,           KC_COMMA,       RALT_T(KC_DOT), RCTL_T(KC_SLASH), KC_RSHIFT,
+    KC_EQUAL,       KC_1,           KC_2,           KC_3,           KC_4,           KC_5,           KC_LCTRL,                                    KC_RCTRL,   KC_6,           KC_7,           KC_8,           KC_9,           KC_0,             KC_MINUS,
+    KC_DELETE,      KC_Q,           KC_W,           KC_F,           KC_P,           KC_B,           KC_LALT,                                     KC_LALT,    KC_J,           KC_L,           KC_U,           KC_Y,           KC_SCOLON,        KC_BSLASH,
+    KC_BSPACE,      KC_A,           KC_R,           KC_S,           KC_T,           KC_G,           TG(1),                                       TG(1),      KC_M,           KC_N,           KC_E,           KC_I,           KC_O,             LGUI_T(KC_QUOTE),
+    KC_LSHIFT,      LCTL_T(KC_Z),   LALT_T(KC_X),   KC_C,           KC_D,           KC_V,           KC_HYPR,                                     KC_MEH,     KC_K,           KC_H,           KC_COMMA,       RALT_T(KC_DOT), RCTL_T(KC_SLASH), KC_RSHIFT,
      _______,       MO(1),          RGB_TOG,        KC_LEFT,        KC_RIGHT,       KC_SPC,         KC_HOME,    KC_BSPACE,       KC_TAB, LCTL_T(KC_ESCAPE),         KC_ENTER,       KC_UP,          KC_DOWN,        KC_RALT,        MO(1),            _______,
 
         KC_VOLD, KC_VOLU, KC_VOLD, KC_VOLU, KC_VOLD, KC_VOLU,                                     KC_VOLD, KC_VOLU, KC_VOLD, KC_VOLU, KC_VOLD, KC_VOLU,
